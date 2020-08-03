@@ -1,12 +1,12 @@
 var aboutState = {
 	create: function(){
-		linkZenvaCompo = "https://gamedevacademy.org/first-zenva-phaser-hackathon/";
-		linkCredits = "https://github.com/CaioMGA/ZenvaGameJam/blob/master/Credits.txt";
-		linkItchIo =  "https://caiomga.itch.io/";
-		linkBitbucket = "https://bitbucket.org/CaioMGA/";
-		linkGithub = "https://github.com/CaioMGA/";
-		linkFacebook = "http://fb.com/caiomga/";
-		linkEmail = "mailto:caiomga@gmail.com/"
+		linkZenvaCompo = "";
+		linkCredits = "";
+		linkItchIo =  "";
+		linkBitbucket = "";
+		linkGithub = "";
+		linkFacebook = "";
+		linkEmail = ""
 
 		playerIllustration = game.add.sprite(400, 80, "hero_spritesheet", 14);
 		pointerIllustration = game.add.sprite(550, 55, "targetIndicator", 0);

@@ -70,7 +70,7 @@ function showSettings(){
 
 function showAbout(){
 	stopAllSounds();
-	game.state.start("about");
+	game.state.start("");
 	breadCrumbs.push(game.state.current);
 }
 
